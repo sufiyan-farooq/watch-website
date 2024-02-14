@@ -1,0 +1,91 @@
+@font-face {
+    font-family: custom;
+    src: url(font/ProtestGuerrilla-Regular.ttf);
+}
+  
+  .navbar-brand img{
+    width: 100px;
+  }
+  
+  .cta {
+    
+    background: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #c3952c;
+    border: none;
+   
+   
+  }
+  .cta:hover{
+background-color: #deb148;
+box-shadow: 1px 1px 20px #fef1bf;
+  }
+  
+  .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 15px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  .heading h1{
+    color: #fff;
+    margin-top: 100px;
+    margin-right: 20px;
+    font-size: 70px;
+    font-family: custom;
+  }
+  .heading h1 span{
+  color: #c3952c;
+  }
+
+  .section2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .image img{
+    width: 450px;
+    margin-top: 40px;
+  }
