@@ -76,7 +76,7 @@ var watches = {
 
       color: "silver",
       Tags: "126711CHNR, 40mm, Men, Oyster Perpetual, Rolex",
-      img:"http://watchmarkaz.com.pk/img/productsimg/24954202210700.jpg",
+      img:"https://imagedelivery.net/lyg2LuGO05OELPt1DKJTnw/7810e4f8-a105-4b29-7c63-3411e0ce6c00/public"
     },
     RolexOyster: {
       name: "Rolex Oyster",
@@ -87,7 +87,7 @@ var watches = {
       category: "Men's Watch",
       color: [, "golden", "silver"],
       Tags: "126231-62801, Automatic, certified pre-owned, Datejust 36, Datejust 36 Men, Rolex, watch",
-      img:"http://watchmarkaz.com.pk/img/productsimg/20153206600000.jpg"
+      img:"https://imagedelivery.net/lyg2LuGO05OELPt1DKJTnw/f7555c4c-31b2-40fb-72ba-5ebc0a857a00/public"
     },
   },
 
