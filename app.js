@@ -1,3 +1,4 @@
+
 var watches = {
   ROLEX: {
     RolexExplorer: {
@@ -213,7 +214,7 @@ var watches = {
       category: "Men's Watch",
       color: [, "golden", "silver"],
       Tags: "126231-62801, Automatic, certified pre-owned, Datejust 36, Datejust 36 Men, Rolex, watch",
-      img: "https://iwc.com.pk/wp-content/uploads/2023/03/GA-100-1A4DR.jpg",
+      img:"https://iwc.com.pk/wp-content/uploads/2023/03/GMA-S2100-1ADR.jpg"
     },
     GshockCasio11: {
       name: "G-shock Casio 11 ",
@@ -224,7 +225,7 @@ var watches = {
       category: "Men's Watch",
       color: [, "golden", "silver"],
       Tags: "126231-62801, Automatic, certified pre-owned, Datejust 36, Datejust 36 Men, Rolex, watch",
-      img: "https://iwc.com.pk/wp-content/uploads/2023/03/GA-100-1A4DR.jpg",
+      img:"https://iwc.com.pk/wp-content/uploads/2023/03/GA-2000S-1ADR.jpg"
     },
     GshockCasio12: {
       name: "G-shock Casio 12 ",
@@ -235,7 +236,7 @@ var watches = {
       category: "Men's Watch",
       color: [, "golden", "silver"],
       Tags: "126231-62801, Automatic, certified pre-owned, Datejust 36, Datejust 36 Men, Rolex, watch",
-      img: "https://iwc.com.pk/wp-content/uploads/2023/03/GA-100-1A4DR.jpg",
+      img:"https://iwc.com.pk/wp-content/uploads/2023/03/GA-2100-1A3DR.jpg"
     },
     GshockCasio13: {
       name: "G-shock Casio 13 ",
@@ -246,7 +247,7 @@ var watches = {
       category: "Men's Watch",
       color: [, "golden", "silver"],
       Tags: "126231-62801, Automatic, certified pre-owned, Datejust 36, Datejust 36 Men, Rolex, watch",
-      img: "https://iwc.com.pk/wp-content/uploads/2023/03/GA-100-1A4DR.jpg",
+      img:"https://iwc.com.pk/wp-content/uploads/2023/03/GA-2100FR-5ADR.jpg"
     },
     GshockCasio14: {
       name: "G-shock Casio 14 ",
@@ -257,7 +258,7 @@ var watches = {
       category: "Men's Watch",
       color: [, "golden", "silver"],
       Tags: "126231-62801, Automatic, certified pre-owned, Datejust 36, Datejust 36 Men, Rolex, watch",
-      img: "https://iwc.com.pk/wp-content/uploads/2023/03/GA-100-1A4DR.jpg",
+      img:"https://iwc.com.pk/wp-content/uploads/2023/03/GA-2200SL-8ADR.jpg"
     },
     GshockCasio15: {
       name: "G-shock Casio 10 ",
@@ -268,7 +269,7 @@ var watches = {
       category: "Men's Watch",
       color: [, "golden", "silver"],
       Tags: "126231-62801, Automatic, certified pre-owned, Datejust 36, Datejust 36 Men, Rolex, watch",
-      img: "https://iwc.com.pk/wp-content/uploads/2023/03/GA-100-1A4DR.jpg",
+      img:"https://iwc.com.pk/wp-content/uploads/2023/03/GA-700BP-1ADR.jpg"
     },
   },
 };
@@ -366,14 +367,25 @@ function searchProduct() {
 var product = search.value
 var brand = searchBrand.value
 
+var products = document.getElementById('heading3')
+var space = document.getElementById('product_card_space')
+
+var searchHead = document.querySelector('.search_product_head')
+var modalBox = document.querySelector('#modal')
+searchHead.style.display = 'flex'
+modalBox.style.display = 'flex'
+
+products.style.display = 'none'
+space.style.display = 'none'
 
 
-var modalBox = document.getElementById('modal')
+
 for(var key in watches[brand]) {
   if(watches[brand][key].name === product) {
     modalBox.innerHTML += `
-    <div id="modal" class="modal-show">
- 
+  
+    <div  class="modal-show ">
+
     <div class="img-card">
      <img src="${watches[brand][key].img}" alt="">
     </div>
@@ -401,7 +413,7 @@ for(var key in watches[brand]) {
          <h2>Price :  ${watches[brand][key].price}</h2>
        </div>
        <div class="product-button">
-       <button class="addtocart">
+       <button onclick = "changetext()" class="addtocart">
          <div class="pretext">
            <i class="fas fa-cart-plus"></i> ADD TO CART
          </div>
@@ -420,24 +432,9 @@ for(var key in watches[brand]) {
 }
 }
 
-document.getElementById('refreshButton').addEventListener('click', function() {
-  location.reload(); 
-});
 
-const button = document.querySelector(".addtocart");
-const done = document.querySelector(".done");
-console.log(button);
-let added = false;
-button.addEventListener('click',()=>{
-  if(added){
-    done.style.transform = "translate(-110%) skew(-40deg)";
-    added = false;
-  }
-  else{
-    done.style.transform = "translate(0px)";
-    added = true;
-  }
-    
-});
+
+
+
 
 

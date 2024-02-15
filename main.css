@@ -690,10 +690,11 @@ background-color: #98731e;
 .modal-show{
   background-color: #fff;
   width: 800px;
-  height: 500px;
+  height: 550px;
   border-radius: 20px;
    margin: 0px auto;
    display: flex;
+   margin-top: 20px;
   
 
 
@@ -793,6 +794,7 @@ background-color: #98731e;
 i{
   margin-right:10px;
 }
+
 .done{
   background:#000000;
   position:absolute;
@@ -812,18 +814,19 @@ i{
 
 .back-button button{
    position :absolute;
-   right: 30px;
+   right: 13px;
    border: none;
    font-size: 40px;
    background-color: #fff;
    color: #e6ac27;
-   bottom: 436px;
+   bottom: 507px;
  
  
 }
 .back-button button:hover{
 color: #b78b25;
 }
+
 
 
 
@@ -853,3 +856,135 @@ color: #b78b25;
   color: #98731e;
   font-size: 40px;
 }
+.text-white{
+  font-size: 30px;
+  font-size: 46px;
+  font-family: inherit;
+  justify-content: center;
+  margin-top: 10px;
+  color: #b78b25;
+  font-weight: 500;
+}
+
+@media screen and (max-width:1024px) {
+  .btn-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+  }
+  .footer-img img{
+    width: 300px;
+  }
+}
+@media screen and (max-width:870px) {
+ .product{
+  padding-left: 2px;
+  padding-right: 8px;
+
+}
+.navbar-brand img{
+  width: 80px;
+}
+}
+
+@media screen and (max-width:530px) {
+  .w-100{
+    height: 295px !important;
+    margin-top: 40px !important;
+  }
+  .brand{
+    padding-left: 8px;
+    padding-right: 8px;
+margin-top: 20px;
+    margin-right: 67px;
+  }
+  .btn-1{
+    margin-top: 10px;
+margin-left: 164px;
+padding: 8px;
+padding-left: 8px;
+padding-right: 8px;
+  }
+  .product {
+margin-top: 20px;
+    padding: 8px;
+  }
+  .navbar-brand{
+    margin-left: 100px;
+  }
+}
+@media screen and (max-width:480px) {
+  .btn-1{
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width:370px) {
+  .navbar-brand{
+    margin-left: 0px;
+  }
+}
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -7,6 +7,68 @@
     width: 100px;
   }
   
+  .cta-1 {
+    
+    background: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 25px;
+    background-color: #c3952c;
+    border: none;
+   
+   
+  }
+  .cta-1:hover{
+background-color: #deb148;
+box-shadow: 1px 1px 20px #fef1bf;
+  }
+  
+  .cta-1 span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: 500;
+    padding-right: 15px;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  
+  .cta-1 svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta-1:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta-1:active svg {
+    transform: scale(0.9);
+  }
+  
+  .hover-underline-animation {
+    position: relative;
+    color: #fff;
+    padding-bottom: 20px;
+  }
+  
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .cta-1:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
   .cta {
     
     background: none;
@@ -88,4 +150,24 @@ box-shadow: 1px 1px 20px #fef1bf;
   .image img{
     width: 450px;
     margin-top: 40px;
+  }
+  @media screen and (max-width: 900px) {
+    .heading h1{
+      font-size: 55px;
+    }
+    .image img{
+      width: 300px;
+      margin-top: 80px;
+    }
+  }
+  @media screen and (max-width:630px){
+   .cta-1{
+    display: none;
+   }
+    .heading h1{
+      font-size: 40px;
+    }
+    .image img{
+      width: 250px;
+    }
   }
