@@ -45,28 +45,6 @@ var watches = {
       color: "silver",
       img: "https://iwc.com.pk/wp-content/uploads/2022/05/79174.jpg",
     },
-    RolexDateJust28: {
-      name: "Rolex Datejust 28 ",
-      price: "$1000",
-      category: "Men's Watch",
-      fullName: "Rolex Datejust 28 Diamond Bezel & Index - 69138-8570F",
-      caption:"The Oyster Perpetual Explorer in Oystersteel features a distinctive black dial with characteristic 3, 6, and 9 numerals with a Chromalight display. Its highly legible hour markers, extremely resistant Oystersteel and waterproofness have made it a tool watch for exploration.",
-
-      color: ["black", "golden", "silver"],
-      Tags: "28mm, 69138-8570F, Automatic, certified pre-owned, Datejust, Rolex, watch",
-      img:"https://iwc.com.pk/wp-content/uploads/2023/02/rolex-79173-62523D-18.jpg",
-    },
-    RolexDateJust36: {
-      name: "Rolex DateJust 36",
-      fullName: "Rolex Datejust 36 – 116200-72600",
-      price: "$700",
-      category: "Men's Watch",
-      caption:"The Oyster Perpetual Explorer in Oystersteel features a distinctive black dial with characteristic 3, 6, and 9 numerals with a Chromalight display. Its highly legible hour markers, extremely resistant Oystersteel and waterproofness have made it a tool watch for exploration.",
-
-      Tags: "116200/72600, Automatic, certified, Datejust 36, Datejust 36 Men, pre-owned, Rolex, watch",
-      color: ["black", "golden", "silver"],
-      img:"https://iwc.com.pk/wp-content/uploads/2022/05/Rolex-12.jpg",
-    },
     RolexGMT: {
       name: "Rolex® GMT",
       price: "$1000",
@@ -89,6 +67,29 @@ var watches = {
       Tags: "126231-62801, Automatic, certified pre-owned, Datejust 36, Datejust 36 Men, Rolex, watch",
       img:"https://imagedelivery.net/lyg2LuGO05OELPt1DKJTnw/f7555c4c-31b2-40fb-72ba-5ebc0a857a00/public"
     },
+    RolexDateJust28: {
+      name: "Rolex Datejust 28 ",
+      price: "$1000",
+      category: "Men's Watch",
+      fullName: "Rolex Datejust 28 Diamond Bezel & Index - 69138-8570F",
+      caption:"The Oyster Perpetual Explorer in Oystersteel features a distinctive black dial with characteristic 3, 6, and 9 numerals with a Chromalight display. Its highly legible hour markers, extremely resistant Oystersteel and waterproofness have made it a tool watch for exploration.",
+
+      color: ["black", "golden", "silver"],
+      Tags: "28mm, 69138-8570F, Automatic, certified pre-owned, Datejust, Rolex, watch",
+      img:"https://iwc.com.pk/wp-content/uploads/2023/02/rolex-79173-62523D-18.jpg",
+    },
+    RolexDateJust36: {
+      name: "Rolex DateJust 36",
+      fullName: "Rolex Datejust 36 – 116200-72600",
+      price: "$700",
+      category: "Men's Watch",
+      caption:"The Oyster Perpetual Explorer in Oystersteel features a distinctive black dial with characteristic 3, 6, and 9 numerals with a Chromalight display. Its highly legible hour markers, extremely resistant Oystersteel and waterproofness have made it a tool watch for exploration.",
+
+      Tags: "116200/72600, Automatic, certified, Datejust 36, Datejust 36 Men, pre-owned, Rolex, watch",
+      color: ["black", "golden", "silver"],
+      img:"https://iwc.com.pk/wp-content/uploads/2022/05/Rolex-12.jpg",
+    },
+  
   },
 
   AUDEMARSPIGUET: {
