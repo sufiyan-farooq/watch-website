@@ -856,7 +856,7 @@ color: #b78b25;
   color: #98731e;
   font-size: 40px;
 }
-.text-white{
+.text-center{
   font-size: 30px;
   font-size: 46px;
   font-family: inherit;
@@ -874,6 +874,64 @@ color: #b78b25;
   }
   .footer-img img{
     width: 300px;
+  }
+}
+@media screen and (max-width:630px) {
+  .modal-show{
+    width: 530px !important;
+  }
+}
+@media screen and (max-width:570px) {
+  .modal-show{
+    width: 470px !important;
+  }
+  .img-card img{
+    width: 370px;
+    margin-left: 63px !important;
+  }
+  .product-button button{
+    margin-left: 140px !important;
+  }
+  .back-button button{
+    bottom: 750px !important;
+  }
+  }
+@media screen  and (max-width:830px){
+  .modal-show{
+    display: block;
+    width: 583px;
+    height: 890px;
+  }
+  .product-name h1{
+    text-align: center;
+    font-size: 44px;
+    
+  }
+  .product-fullName h4{
+    font-size: 16px;
+    text-align: center;
+  }
+  .product-color{
+    margin-left: 250px;
+  }
+  .product-caption p{
+    font-size: 11px;
+  }
+  .product-price h2{
+    text-align: center;
+    font-size: 39px;
+    font-weight: 550;
+
+  }
+  .product-button button{
+    margin-left: 170px;
+  }
+  .img-card img{
+    margin-left: 100px;
+  }
+  .back-button button{
+    bottom: 780px;
+    right: 24px;
   }
 }
 @media screen and (max-width:870px) {
@@ -912,15 +970,67 @@ margin-top: 20px;
   .navbar-brand{
     margin-left: 100px;
   }
-}
+  .modal-show{
+    width: 410px !important;
+
+  }
+  .img-card img{
+    width: 315px;
+  }
+  .back-button button{
+    bottom: 706px !important;
+  }
+  .product-button button{
+    margin-left: 90px !important;
+  }
+  .product-name h1{
+    font-size: 37px;
+  }
+  }
 @media screen and (max-width:480px) {
   .btn-1{
     margin-left: 0px;
   }
+  .modal-show{
+    width: 380px !important;
+    height: 840px !important;
+  }
+  .product-color{
+    margin-left: 160px !important;
+  }
+  .product-button button{
+    margin-left: 75px !important;
+  }
+}
+@media screen and (max-width:420px) {
+  .modal-show{
+    width: 320px !important;
+    height: 820px !important;
+    
+  }
+  .back-button button{
+    bottom: 690px !important;
+  }
+  .img-card img{
+    width: 250px !important;
+    margin-left: 41px !important;
+  }
+  .product-button button{
+    margin-left: 33px !important;
+  }
+  .product-color {
+    margin-left: 140px !important;
+  }
+}
+@media screen and (max-width:) {
+  
 }
 @media screen and (max-width:370px) {
   .navbar-brand{
     margin-left: 0px;
+  }
+  .back-button button{
+    bottom: 650px !important;
   }
 }
  
