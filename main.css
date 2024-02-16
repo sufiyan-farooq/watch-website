@@ -1022,8 +1022,10 @@ margin-top: 20px;
     margin-left: 140px !important;
   }
 }
-@media screen and (max-width:) {
-  
+@media screen and (max-width:414px) {
+  .back-button button{
+    bottom: 650px !important;
+  }
 }
 @media screen and (max-width:370px) {
   .navbar-brand{
