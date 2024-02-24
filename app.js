@@ -368,6 +368,7 @@ function searchProduct() {
 var product = search.value
 var brand = searchBrand.value
 
+var carousel = document.getElementById('carouselExampleIndicators')
 var products = document.getElementById('heading3')
 var space = document.getElementById('product_card_space')
 
@@ -378,6 +379,7 @@ modalBox.style.display = 'flex'
 
 products.style.display = 'none'
 space.style.display = 'none'
+carousel.style.display="none"
 
 
 
